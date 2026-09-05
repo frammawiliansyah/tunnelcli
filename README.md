@@ -1,11 +1,11 @@
-# tunnelcli
+# TunnelCLI
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A tiny, zero-dependency CLI for one-shot SSH local port forwarding, built as a
 lighter alternative to editing `~/.ssh/config` by hand or wiring up a
 GUI/daemon tunnel manager for a single "forward this port, please" need. The
-project is called `tunnelcli`; the command it installs is `tunnel`.
+project is called TunnelCLI; the command it installs is `tunnel`.
 
 ```
 $ tunnel myserver 5173
