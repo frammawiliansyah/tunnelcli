@@ -1,0 +1,12 @@
+[package]
+name = "tunnel"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "tunnel"
+path = "src/main.rs"
+
+[profile.release]
+opt-level = "s"
+strip = true
