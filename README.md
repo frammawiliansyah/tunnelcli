@@ -22,7 +22,7 @@ services on a remote box and just want `localhost:PORT` to work immediately.
 
 `tunnel` is a single command that:
 
-- Forwards **local:PORT → host:PORT** over SSH, using host aliases you already
+- Forwards **local:PORT -> host:PORT** over SSH, using host aliases you already
   have in `~/.ssh/config` - no separate config file to maintain.
 - **Refuses to start** if the local port is already taken, and tells you
   exactly what's holding it (PID, process name, full command) instead of
